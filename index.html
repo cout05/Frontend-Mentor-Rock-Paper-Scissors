@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <main>
+      <div id="header-container">
+        <div class="header">
+          <div class="game-title">
+            <p class="choice">Rock</p>
+            <p class="choice">Paper</p>
+            <p class="choice">Scissors</p>
+          </div>
+
+          <div class="scrore-container">
+            <p class="score-text">Score</p>
+            <p id="score">0</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="container">
+        <div id="images-container">
+          <div class="triangle-container">
+            <img src="images/bg-triangle.svg" alt="tringle-img" id="triangle" />
+          </div>
+          <div class="paper-container">
+            <img src="images/icon-paper.svg" alt="paper-img" id="paper" />
+          </div>
+          <div class="scissors-container">
+            <img
+              src="images/icon-scissors.svg"
+              alt="scissors-img"
+              id="scissors" />
+          </div>
+          <div class="rock-container">
+            <img src="images/icon-rock.svg" alt="rock-img" id="rock" />
+          </div>
+        </div>
+
+        <div id="picking-container">
+          <div class="your-picked-container">
+            <div id="your-picked-img-container">
+              <img src="" alt="" id="your-picked" />
+            </div>
+            <p class="picked-text">You Picked</p>
+          </div>
+          <div id="result-desktop">
+            <p id="win-text">You Win</p>
+            <div id="lose-text">You Lose</div>
+            <div id="draw-text">Draw</div>
+            <button type="submit" id="play-again-desktop">Play Again</button>
+          </div>
+          <div class="house-picked-container">
+            <div id="house-picked-img-container-empty"></div>
+            <div id="house-picked-img-container">
+              <img src="" alt="" id="house-picked" />
+            </div>
+            <p class="picked-text">The house Picked</p>
+          </div>
+        </div>
+
+        <div id="result">
+          <div id="win-text-mobile">You Win</div>
+          <div id="lose-text-mobile">You Lose</div>
+          <div id="draw-text-mobile">Draw</div>
+          <button type="submit" id="play-again">Play Again</button>
+        </div>
+
+        <div class="button-container">
+          <button type="button" id="rules">Rules</button>
+        </div>
+      </div>
+
+      <div id="rules-outer-container">
+        <div class="rules-container">
+          <div class="rule-text-container">
+            <h2>rules</h2>
+          </div>
+
+          <div class="image-rules-container">
+            <img src="images/image-rules.svg" alt="rules-img" id="close-img" />
+          </div>
+          <div class="close-button-container">
+            <button type="submit" id="close-button">
+              <img src="images/icon-close.svg" alt="close-img" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
