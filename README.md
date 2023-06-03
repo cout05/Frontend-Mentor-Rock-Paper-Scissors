@@ -23,5 +23,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://cout05.github.io/Frontend-Mentor-Rock-Paper-Scissors/)
+- Solution URL: [solution URL here](https://github.com/cout05/Frontend-Mentor-Rock-Paper-Scissors)
+- Live Site URL: [live site URL here](https://cout05.github.io/Frontend-Mentor-Rock-Paper-Scissors/)
